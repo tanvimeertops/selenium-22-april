@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test1">
+  <parameter name="Username" value="standard_user"/>
+  <parameter name="Password" value="secret_sauce"/>
+    <classes>
+      <class name="com.testng.TestNGParameter"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test2">
+  <parameter name="Username" value="problem_user"/>
+  <parameter name="Password" value="secret_sauce"/>
+    <classes>
+      <class name="com.testng.TestNGParameter"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
