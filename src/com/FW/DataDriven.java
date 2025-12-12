@@ -65,7 +65,15 @@ public void test() throws InterruptedException, InvalidFormatException, IOExcept
 	driver.findElement(By.id("login-button")).click();
 	Thread.sleep(2000);
 	driver.close();
+	
+	
+	
 	}
+	
+	
+	
+	
+	
 }
 
 }
